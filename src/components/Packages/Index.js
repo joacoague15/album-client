@@ -1,8 +1,8 @@
 import React from 'react'
-import Sticker from "./Sticker";
+import PackageFigurines from "./PackagesFigurines";
 
 function Packages() {
-  return <Sticker />
+  return <PackageFigurines />
 }
 
-export default Packages
+export default Packages;
