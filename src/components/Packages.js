@@ -1,12 +1,8 @@
-import { Paper } from '@mui/material'
 import React from 'react'
+import Sticker from "./Sticker";
 
 function Packages() {
-  return (
-    <Paper sx={{position:"absolute",margin:"0px auto", width:"200px", height:"260px"}}>
-        
-    </Paper>
-  )
+  return <Sticker />
 }
 
 export default Packages
