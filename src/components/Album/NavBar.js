@@ -12,10 +12,10 @@ function Bar() {
             </Typography>
             <Box sx={{display:"flex", gap:"3rem", justifyContent:"center"}}>
             <Typography variant='h5'>
-                <Link to="" className='link-home'>Packages</Link>
+                <Link to="/packages" className='link-home'>Packages</Link>
             </Typography>
             <Typography variant='h5'>
-                <Link to="" className='link-home'>Packages</Link>
+                <Link to="/packages" className='link-home'>Packages</Link>
             </Typography>
             </Box>
         </Box>

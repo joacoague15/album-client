@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+.css-rppfq7-MuiButtonBase-root-MuiPaginationItem-root{
+    color: white!important;
+}
 body{
     background-color: #242A73;
 }

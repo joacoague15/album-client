@@ -1,15 +1,15 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
 
-import Bar from './components/Bar';
-import Album from './components/Album';
-import Packages from './components/Packages';
+import NavBar from './components/Album/NavBar';
+import Album from './components/Album/Index';
+import Packages from './components/Packages/Index';
 
 
 function App() {
   return (
     <>
-      <Bar />
+      <NavBar />
       <Routes>
         <Route path='/' element={<Album/>} />
         <Route path='/packages' element={<Packages/>}/>
