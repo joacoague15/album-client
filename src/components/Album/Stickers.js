@@ -1,17 +1,17 @@
 import { Paper, Typography, Box } from '@mui/material'
 import React from 'react'
-import AddIcon from '@mui/icons-material/Add';
 
 import { paperStyleOutside, paperStyleInside} from '../ConstCSS'
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 
 function Sickers(props) {
   return (
-    <Box>
+    <Box >
       <Paper elevation={5} sx={paperStyleOutside}>
         <Paper sx={paperStyleInside}>
-          <AddIcon fontSize='large' sx={{ 
-            display: "inline-block", 
-            position: "absolute" 
+          <QuestionMarkIcon fontSize='large' sx={{ 
+            display: "block", 
+            position: "realtive",
             }} />
         </Paper>
       </Paper>
@@ -20,4 +20,4 @@ function Sickers(props) {
   )
 }
 
-export default Sickers
+export default Sickers;

@@ -16,6 +16,9 @@ function Navbar() {
             <Typography variant='h5'>
                 <Link to="/packages" className='link-home'>Packages</Link>
             </Typography>
+            <Typography variant='h5'>
+                <Link to="/inventory" className='link-home'>Inventory</Link>
+            </Typography>
             </Box>
         </Box>
     </>
