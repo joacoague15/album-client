@@ -5,7 +5,9 @@ import Pagination from '@mui/material/Pagination';
 
 import { albumBackground, flexFigurines } from '../ConstCSS';
 
-const stickers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+export const stickers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+=======
+
 
 function Album() {
  
@@ -30,11 +32,3 @@ function Album() {
 
 export default Album
 
-
-   /*const navigate = useNavigate();
-import { useNavigate } from 'react-router';
-    //onClick={redirectToPackages}
-
-    const redirectToPackages = () => {
-        navigate('/packages');
-    }*/

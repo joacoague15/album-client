@@ -1,10 +1,11 @@
 
-const navBar ={
-    display:"flex", 
-    flexDirection:"column", 
-    width: "100%", 
-    textAlign:"center", 
-    bgcolor: "#010747", 
+
+const navBar = {
+    display: "flex",
+    flexDirection: "column",
+    width: "100%",
+    textAlign: "center",
+    bgcolor: "#010747",
     borderRadius: "0 0 15px 15px"
 }
 
@@ -26,28 +27,45 @@ const paperStyleInside = {
     margin: "auto",
     width: "100px",
     height: "160px ",
-    bgcolor: "#8E8D8D"
+    bgcolor: "#8E8D8D",
 }
 
 const albumBackground = {
-    position: "absolute", 
-    top: 120, 
-    bottom: "auto", 
-    left: 30, 
-    right: 30, 
-    bgcolor: "#010747", 
-    height: "auto", 
-    borderRadius: "15px", 
+    position: "absolute",
+    top: 120,
+    bottom: "auto",
+    left: 30,
+    right: 30,
+    bgcolor: "#010747",
+    height: "auto",
+    borderRadius: "15px",
     alignContent: "center"
 }
 
-const flexFigurines ={
-    display: "flex", 
-    flexWrap: "wrap", 
-    gap: "2rem", 
-    justifyContent: "center", 
-    padding:"30px 100px" 
+const flexFigurines = {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "2rem",
+    justifyContent: "center",
+    padding: "30px 100px"
 
 }
 
-export { paperStyleOutside, paperStyleInside, albumBackground, flexFigurines, navBar  }
+//Inventory
+const inventoryBoard = {
+    display: "flex",
+    flexDirection: "row",
+    position: "absolute",
+    bottom: 0,
+    top: 140,
+    gap: "20px ",
+}
+
+export { 
+    paperStyleOutside, 
+    paperStyleInside, 
+    albumBackground, 
+    flexFigurines, 
+    navBar, 
+    inventoryBoard 
+    }
