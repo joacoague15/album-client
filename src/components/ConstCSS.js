@@ -1,4 +1,5 @@
 
+
 const navBar = {
     display: "flex",
     flexDirection: "column",
@@ -66,4 +67,5 @@ export {
     albumBackground, 
     flexFigurines, 
     navBar, 
-    inventoryBoard }
+    inventoryBoard 
+    }
